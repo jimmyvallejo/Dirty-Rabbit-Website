@@ -58,6 +58,12 @@ ul {
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 500px) {
+  .big-heading {
+    font-size: 28px;
+  }
+}
+
 .small-heading {
   color: #F9F9F9;
   font-weight: 200;
@@ -122,32 +128,47 @@ padding-top: 30px;
 }
 
 /* Padding for texts in Image grid section */
-.txtpad {
-  position: relative;
-  left: 3%;
-  top: 33%;
-}
 
-.txtpad2 {
-  position: relative;
-  left: 5%;
-  top: 33%;
-}
 
-@media only screen and (max-width: 400px) {
-  .txtpad, .txtpad2 {
-  position:relative;
-  top:80%;
 
-  }
-}
 
 .intro {
   font-weight: 200;
+  padding-left: 20px;
+  padding-top: 150px;
 }
 
 .intro1 {
   font-weight: 300;
+  padding-left: 20px
+}
+
+.intro3 {
+  font-weight: 200;
+  padding-left: 35px;
+  padding-top: 130px;
+}
+
+.intro4 {
+  font-weight: 300;
+  padding-left: 35px;
+
+}
+
+.imgbtn1 {
+  margin-left: 20px;
+}
+
+.imgbtn2 {
+  margin-left: 35px;
+}
+
+@media only screen and (max-width: 500px) {
+  .intro, .intro3 {
+    padding-top: 80px;
+
+
+  }
 }
 
 /* End padding */
