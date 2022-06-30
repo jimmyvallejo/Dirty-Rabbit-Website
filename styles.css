@@ -84,6 +84,13 @@ ul {
   color: #F9F9F9;
 }
 
+@media only screen and (max-width: 300px) {
+  .maintxt, .maintxt2, .maintxt3, .maintxt4  {
+margin-top: 30px;
+  }
+}
+
+
 .maintxt {
   background-image: url(images/dirtysign.jpg);
   margin-right: -10px;
