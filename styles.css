@@ -84,9 +84,10 @@ ul {
   color: #F9F9F9;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
   .maintxt, .maintxt2, .maintxt3, .maintxt4  {
 margin-top: 30px;
+padding-top: 30px;
   }
 }
 
