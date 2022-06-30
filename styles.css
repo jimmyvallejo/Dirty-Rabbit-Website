@@ -183,7 +183,10 @@ text-transform: uppercase;
 padding-bottom: 30px;
 }
 
-
+.fleximages {
+  padding-right:
+  27px;
+}
 
 .image-gallery {
   display: flex;
