@@ -117,7 +117,7 @@ padding-top: 30px;
     height: 300px;
     background-size: cover;
     background-position: center;
-    position: absolute;
+
   }
 }
 
@@ -132,6 +132,14 @@ padding-top: 30px;
   position: relative;
   left: 5%;
   top: 33%;
+}
+
+@media only screen and (max-width: 400px) {
+  .txtpad, .txtpad2 {
+  position:relative;
+  top:80%;
+
+  }
 }
 
 .intro {
